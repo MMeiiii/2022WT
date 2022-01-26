@@ -8,7 +8,7 @@ int main (){
 
         int len=0,binary[35],ans=0;
 
-        //Âà¤G¶i¨î
+        //è½‰äºŒé€²åˆ¶
         if(n==1){
             binary[len]=1;
         }
@@ -22,7 +22,7 @@ int main (){
         }
 
         int i=0;
-        //+1ÀË¬d
+        //+1æª¢æŸ¥
         while(binary[i]+1==2){
             ans++;
             i++;
